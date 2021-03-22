@@ -35,7 +35,7 @@ fwl = zInWorkFile#-2.500
 
 rapidZSafe = 10.0
 sd = 0.0 #start cut at
-ed = -7.0 #end cut at 
+ed = -20.0 #end cut at 
 stepd = 3.5 #step z down
 
 #tabs
@@ -229,6 +229,7 @@ else:
 #create paths[ path, path ]
 #path is line by line G....
 
+print("so it's freecad ?")
 fc = 0
 lastOk = False
 memory = {
